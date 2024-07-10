@@ -1,0 +1,41 @@
+.navbar {
+  background-color: #000000; /* Black background */
+  z-index: 1000; /* Ensure navbar is above other elements */
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  font-weight: bold;
+  color: #fff; /* White text on hover */
+  text-shadow: 0 0 5px #fff; /* White shadow on hover */
+  transition: all 0.4s ease;
+}
+
+.logo-img {
+  height: 50px;
+}
+
+.navbar .navbar-brand:hover {
+  color: #fff; /* White text on hover */
+  text-shadow: 0 0 5px #fff; /* White shadow on hover */
+  transition: all 0.4s ease;
+}
+
+.navbar .navbar-brand {
+  color: #fff; /* White text */
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff; /* White text */
+  font-weight: bold;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+  background-color: #000; /* Black background for active link */
+  border-radius: 10px;
+  font-weight: bold;
+  color: #fff; /* White text */
+}
+
+ 
