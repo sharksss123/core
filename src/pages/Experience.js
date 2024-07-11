@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "./Navbar";
-import PC1Image from "./img/08.jpg";
-import PC2Image from "./img/07.jpg";
-import PC3Image from "./img/05.jpg";
+import PC1Image from "./img/00.jpg";
+import PC2Image from "./img/01.jpg";
+import PC3Image from "./img/03.jpg";
 import "./Experience.css";
 
 const Experience = () => {
@@ -64,7 +64,7 @@ const Experience = () => {
                   <div className="col-lg-4">
                     <div className="card experience-card">
                       <img className="experience-image" src={PC1Image} alt="PC1" />
-                      <h4 className="experience-title">Graduation Picturial</h4>
+                      <h4 className="experience-title">Survey</h4>
                     </div>
                   </div>
                   <div className="col-lg-4">
@@ -76,7 +76,7 @@ const Experience = () => {
                   <div className="col-lg-4">
                     <div className="card experience-card">
                       <img className="experience-image" src={PC3Image} alt="PC3" />
-                      <h4 className="experience-title">Colloquium Present</h4>
+                      <h4 className="experience-title">Pre Oral</h4>
                     </div>
                   </div>
                 </div>

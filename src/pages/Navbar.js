@@ -1,6 +1,6 @@
 import { Outlet } from "react-router-dom";
 import "./Navbar.css";
-import myImage from "./img/pow.png";
+import myImage from "./img/cloud-computing.png";
 
 function Navbar() {
   return (

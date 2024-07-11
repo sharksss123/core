@@ -1,12 +1,14 @@
 #about-info {
   min-height: 40vh;
-  background-image: url('./img/pop.jpg');
+  background-image: url('./img/cloud2.jpg');
   background-size: cover; /* Ensures the image covers the entire area */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   position: relative; /* Ensures that absolutely positioned children are positioned relative to this container */
   overflow: hidden; /* Prevents the snowflakes from causing a scroll */
 }
+
+
 
 .snowflake {
 position: absolute;
@@ -42,7 +44,7 @@ animation: fall linear infinite;
   border-radius: 10px;
   box-shadow: 5px 8px 6px #504a4a;
   transition: transform 0.5s ease;
-  border: 2px solid pink;
+  border: 2px solid rgb(0, 0, 0);
 }
 
 .custom-margin-top {

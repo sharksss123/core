@@ -1,16 +1,16 @@
 import React from "react";
 import "./Portfolio.css";
 import Navbar from "./Navbar";
-import calcuImage2 from "./img/lop.jpg";
-import ontoy1Image from "./img/scren.png";
-import ontoy2Image from "./img/03.jpg";
-import jao5Image from "./img/04.jpg";
+import calcuImage2 from "./img/Capture (1).jpg";
+import ontoy1Image from "./img/Cap.jpg";
+import ontoy2Image from "./img/1.jpg";
+import jao5Image from "./img/Capture 01.jpg";
 
 const Portfolio = () => {
   return (
     <>
       <Navbar />
-      <div id="experiences-info">
+      <div id="experiences-infos">
         <div className="container-fluid mt-5">
           <div className="row">
             <div className="col">
@@ -59,19 +59,19 @@ const Portfolio = () => {
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card shadow text-center p-4">
                 <img className="portfolio-image" src={calcuImage2} alt="Calculator" />
-                <h4 className="mt-3">Calculator</h4>
+                <h4 className="mt-3">Front-end</h4>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card shadow text-center p-4">
                 <img className="portfolio-image" src={ontoy2Image} alt="System Integrations" />
-                <h4 className="mt-3">Colloquium</h4>
+                <h4 className="mt-3">Capstone Project</h4>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">
               <div className="card shadow text-center p-4">
                 <img className="portfolio-image" src={jao5Image} alt="Capstone Project" />
-                <h4 className="mt-3">Capstone Project</h4>
+                <h4 className="mt-3">Monitoring Project</h4>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 mb-4">

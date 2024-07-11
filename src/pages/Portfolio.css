@@ -143,9 +143,9 @@ animation-delay: -2s;
 }
 
 
-#experiences-info{
-  min-height: 30vh;
-  background-image: url('./img/pop.jpg');
+#experiences-infos {
+  min-height: 40vh;
+  background-image: url('./img/cloud2.jpg');
   background-size: cover; /* Ensures the image covers the entire area */
   background-position: center; /* Centers the image */
   background-repeat: no-repeat; /* Prevents the image from repeating */

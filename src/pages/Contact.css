@@ -12,7 +12,7 @@
 .contact-form .btn {
   display: block;
   width: 100%;
-  background-color: #ff5f5f; /* Pink color for button */
+  background-color: #1e0394; /* Pink color for button */
 }
 
 .social-icons a {
@@ -21,15 +21,15 @@
 }
 
 .social-icons a:hover {
-  color: pink; /* Pink hover color for social icons */
+  color: rgb(57, 29, 216); /* Pink hover color for social icons */
 }
 
 .social-icons .facebook:hover {
-  color: rgb(231, 84, 128); /* Adjusted hover color for Facebook */
+  color: rgb(62, 40, 143); /* Adjusted hover color for Facebook */
 }
 
 .social-icons .instagram:hover {
-  color: rgb(255, 127, 127); /* Adjusted hover color for Instagram */
+  color: rgb(84, 41, 201); /* Adjusted hover color for Instagram */
 }
 
 .social-icons .twitter:hover {
@@ -37,14 +37,14 @@
 }
 
 .social-icons .tiktok:hover {
-  color: rgb(237, 123, 193); /* Adjusted hover color for TikTok */
+  color: rgb(85, 66, 192); /* Adjusted hover color for TikTok */
 }
 
 .gonzaga {
-  background-image: url('./img/2820896.jpg');
+  background-image: url('./img/cloud2.jpg');
   border-radius: 10px;
   padding: 10%;
-  box-shadow: 0 0 10px rgba(243, 71, 122, 0.897);
+  box-shadow: 0 0 10px rgba(76, 45, 216, 0.897);
 }
 
 .text-black {

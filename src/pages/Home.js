@@ -1,44 +1,42 @@
 import React from "react";
 import Navbar from "./Navbar";
 import "./Home.css";
-import myImage from "./img/rose.png";
-import ibisImage from "./img/letter-w.png";
-import vscodeImage from "./img/letter-j.png";
-import gcbImage from "./img/letter-d.png";
+import myImage from "./img/file.png";
+import ibisImage from "./img/github.png";
+import vscodeImage from "./img/code-stable.png";
+import gcbImage from "./img/logo512.png";
 
 const Home = () => {
   return (
     <>
-    
       <Navbar />
       <div className="wrapper">
         <div className="overlay">
           <div className="container1">
-
-               <div id="home-info" >
-            <ul class="circles">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-            </ul>
+            <div id="home-info">
+              <ul className="circles">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+              </ul>
               <div className="container">
                 <div className="row">
                   <div className="col-lg-6">
-                    <img src={myImage} alt="Gor" className="home-image" />
-                  </div>
-                  <div className="col-lg-6">
                     <div className="content">
-                      <h2>Welcome!<br /> I'm Roselyn Abadiano</h2>
-                      <h4>We’re excited to help you with top-notch website development and IT solutions. Explore our services and let’s create something amazing together!</h4>
+                      <h2 className="text-color: black">Hi!<br/>I'm Jan Rian Coronel <br/> Your Future Programmer</h2>
+                      <h4>Programming is not just about writing code; it’s about solving problems and creating solutions that can transform ideas into reality.</h4>
                       <a href="/about" className="btn">Explore More</a>
                     </div>
+                  </div>
+                  <div className="col-lg-6 ">
+                    <img src={myImage} alt="Gor" className="home-image pt-5" />
                   </div>
                 </div>
               </div>
@@ -66,17 +64,16 @@ const Home = () => {
       </svg>
 
       <div id="about-infos" className="bg-white">
-  <div className="container-fluid">
-    <div className="row">
-      <div className="col">
-        <h1 className="fw-bold display-1 text-center mt-5 pt-5 mt-5 text-white">
-          <b className="text-black">BOOKS</b>
-        </h1>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col">
+              <h1 className="fw-bold display-1 text-center mt-5 pt-5 mt-5 text-white">
+                <b className="text-black">Application</b>
+              </h1>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-    </div>
-    </div>
-
 
       <section id="info">
         <div className="container">
@@ -84,24 +81,23 @@ const Home = () => {
             <div className="col-lg mb-3">
               <div className="card p-5 shadow" style={{ border: "2px solid pink" }}>
                 <img src={ibisImage} alt="IbisPaintX" className="smaller-image" />
-                <h4 className="text-center title"><b>Wattpad</b></h4>
-                <p>A platform for reading and sharing stories across various genres.</p>
+                <h4 className="text-center title"><b>GitHub</b></h4>
+                <p>On GitHub, every commit is a step towards a better codebase and a stronger community.</p>
               </div>
             </div>
             <div className="col-lg mb-3">
               <div className="card p-5 shadow" style={{ border: "2px solid pink" }}>
                 <img src={vscodeImage} alt="Visual Studio Code" className="smaller-image" />
-                <h4 className="text-center title"><b>Jonaxx</b></h4>
-                <p>Known for captivating romantic novels with compelling characters.</p>
+                <h4 className="text-center title"><b>Visual Code</b></h4>
+                <p>From quick edits to full-fledged development, Visual Studio Code is the tool for every coder.</p>
               </div>
             </div>
             <div className="col-lg mb-3">
               <div className="card p-5 shadow" style={{ border: "2px solid pink" }}>
                 <img src={gcbImage} alt="Gaming Center Base" className="smaller-image" />
-                <h4 className="text-center title"><b>Dreame</b></h4>
-                <p>A platform for discovering and reading romance stories.</p>
+                <h4 className="text-center title"><b>React App</b></h4>
+                <p>With React, create interactive and high-performance web apps effortlessly.</p>
               </div>
-              
             </div>
           </div>
         </div>

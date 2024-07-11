@@ -9,15 +9,15 @@ const Contact = () => {
     <>
       <Navbar />
       <div id="about-info" className="bg-dark">
-  <div className="container-fluid mt-5">
-    <div className="row">
-      <div className="col">
-        <h1 className="fw-bold display-1 text-center mt-5 pt-5 mt-5 text-white">
-          <b>Contact Me!</b>
-        </h1>
-      </div>
-    </div>
-  
+        <div className="container-fluid mt-5">
+          <div className="row">
+            <div className="col">
+              <h1 className="fw-bold display-1 text-center mt-5 pt-5 mt-5 text-white text-shadow">
+                <b>Contact Me!</b>
+              </h1>
+            </div>
+          </div>
+
           {/* Decorative elements */}
           <div className="snowflakes">
             {/* Adjust the number and positioning of elements as needed */}
@@ -58,7 +58,7 @@ const Contact = () => {
             <h2 className="text-center mb-5 text-white"><b>My Social Media Accounts</b></h2>
             <div className="social-icons text-center mt-4">
               <a 
-                href="https://www.facebook.com/jackierose.abadiano.3?mibextid=ZbWKwL"
+                href="https://web.facebook.com/profile.php?id=100057547721130"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="me-4 text-decoration-none"
@@ -66,7 +66,7 @@ const Contact = () => {
                 <FontAwesomeIcon className="social-icon facebook" icon={faFacebook} size="3x" />
               </a>
               <a
-                href="https://www.instagram.com/jackieroseabadiano?igsh=b2xnajJmdHFmeHc2"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="me-4 text-decoration-none"
@@ -82,7 +82,7 @@ const Contact = () => {
                 <FontAwesomeIcon className="social-icon twitter" icon={faTwitter} size="3x" />
               </a>
               <a
-                href="https://www.tiktok.com/@user9985202369906?_t=8nuTqcO9Wlu&_r=1"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="me-4 text-decoration-none"

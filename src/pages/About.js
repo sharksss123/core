@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./About.css"; // Make sure to define your styles in About.css
 import Navbar from "./Navbar";
-import myImage from "./img/roselyn.png"; // Adjust the import path based on your project structure
+import myImage from "./img/file.png"; // Adjust the import path based on your project structure
 
 const About = () => {
   const [clicked, setClicked] = useState(false);
@@ -18,7 +18,7 @@ const About = () => {
     <div className="row">
       <div className="col">
         <h1 className="fw-bold display-1 text-center mt-5 pt-5 mt-5 text-white">
-          <b>ABOUT PAGES</b>
+          <b className="text-shawdow">About Pages</b>
         </h1>
       </div>
     </div>
@@ -73,17 +73,17 @@ const About = () => {
               <div className="card box shadow mb-3 p-3 borde-pink">
                   <h2 className="text-dark"><b>About Me</b></h2>
                   <p className="text-dark">
-                    <b>Name:</b>       Roselyn Abadiano 
+                    <b>Name:</b>Jan Rian Coronel
                     <br></br>
-                    <b>Email:</b>      abadianoroselyn@gmail.com
+                    <b>Email:</b>riancoronel7@gmail.com
                     <br></br>
-                    <b>Birthdate:</b>  March 18, 1998
+                    <b>Birthdate:</b>November 01, 2000
                     <br></br>
-                    <b>Birthplace:</b> Kabankalan City Negros Island Region
+                    <b>Birthplace:</b>Kabankalan City Negros Island Region
                     <br></br>
-                    <b>Age:</b>        26
+                    <b>Age:</b>23
                     <br></br>
-                    <b>Phone No.:</b>   09782353746
+                    <b>Phone No.:</b>09157480062
                    
                    
                     
@@ -92,11 +92,13 @@ const About = () => {
                 <div className="card box shadow mb-3 p-3 border-pink">
                   <h4 className="text-dark"><b>Academic</b></h4>
                   <p className="text-dark">
-                   <b>Primary:</b>  Himamaylan Central School
+                   <b>Primary:</b>Nabulao Elementary School
                    <br></br>
-                   <b>Secondary:</b> Nuestra Senora Delas Nieves
+                   <b>Secondary:</b>Nabulao National High School
                    <br></br>
-                   <b>tertiary:</b>   Central Philippines State University
+                   <b>Senior High:</b>Gil Montilla National High School
+                   <br></br>
+                   <b>Tertiary:</b>Central Philippines State University
                    <br></br>
                    <b>Course:</b> Bachelor Of Science In Information Technology
                   
